@@ -1,0 +1,17 @@
+Version GTK2
+
+libgtk2.0-dev version 2.24 requis pour compiler
+libgtk2.0 version 2.24 requis pour executer
+
+
+Instruction de compilation : 
+lancer make
+
+Ensuite le fichier binaire se trouve dans ./dist/Debug/GNU-Linux-x86/
+
+
+Pour la doc, voir l'autre version.
+
+
+
+
