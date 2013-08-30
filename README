@@ -1,17 +1,19 @@
-Version GTK2
+Prototype d'un Jeu de labyrinthe En C avec GTK.
 
-libgtk2.0-dev version 2.24 requis pour compiler
-libgtk2.0 version 2.24 requis pour executer
+Le but est de former un chemin du cerle bleu jusqu'au carré bleu.
 
+Utilisation en Jeu:
+	Utiliser la souris ou les touches de déplacements afin de déplacer la case rouge.
+	Pour remettre a zero le jeu appuyer sur la touche 1 du pavé numerique.
+	
 
-Instruction de compilation : 
-lancer make
-
-Ensuite le fichier binaire se trouve dans ./dist/Debug/GNU-Linux-x86/
-
-
-Pour la doc, voir l'autre version.
+	
+Binaire Windows disponible ici : https://bitbucket.org/maxisoft/labygtk/downloads/LabyGTK-Win32.zip 
 
 
-
-
+Pour linux:
+	libgtk2.0-dev version 2.24 requis pour compiler
+	libgtk2.0 version 2.24 requis pour executer
+	
+	lancer make :)
+	Ensuite le fichier binaire se trouve dans ./dist/Debug/GNU-Linux-xxx/
