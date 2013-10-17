@@ -39,7 +39,6 @@ pos_t compute_next_position(pos_t startpos, Direction_e dir) {
  * @return true si le chemin arrive a la position finale du jeu.
  */
 bool calcul_du_chemin_rec(pos_t startpos, Direction_e dir, Jeu_t* jp) {
-    char buff[500];
     pos_t next_pos = compute_next_position(startpos, dir);
     /*printf("nextpos %s\n", pos_str(next_pos, buff));*/
     /*printf("dir : %s\n", direction_str(dir));*/
